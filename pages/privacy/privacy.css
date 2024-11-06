@@ -1,0 +1,62 @@
+@import "../../css/global.css";
+
+.entro {
+  padding: 96px 0;
+}
+
+.entro-container {
+  h1 {
+    font-size: 48px;
+    line-height: 58px;
+    font-weight: 600;
+    color: #232536;
+    margin-bottom: 8px;
+  }
+
+  p {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #232536;
+    opacity: 60%;
+  }
+}
+
+.images {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.hero-container {
+  background-color: #ecf8f9;
+  padding: 96px 220px;
+}
+
+.part-1 {
+  h2 {
+    font-size: 36px;
+    line-height: 54px;
+    font-weight: 600;
+    color: #232536;
+    margin-bottom: 24px;
+  }
+
+  p {
+    margin-bottom: 24px;
+  }
+}
+
+.part-2 {
+  h3 {
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 600;
+    color: #232536;
+    margin-bottom: 16px;
+  }
+
+  p {
+    margin-bottom: 40px;
+  }
+}

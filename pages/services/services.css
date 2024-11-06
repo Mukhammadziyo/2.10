@@ -1,0 +1,153 @@
+@import "../../css/global.css";
+
+/* hero */
+.hero {
+  padding: 96px 0;
+}
+
+/* Process */
+.process-container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 68px;
+  padding: 96px 50px;
+}
+
+.process-header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.process-header-left {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+  width: 60%;
+
+  span {
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+    letter-spacing: 3px;
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+
+  h2 {
+    font-size: 48px;
+    line-height: 58px;
+    color: #232536;
+    font-weight: 600;
+  }
+
+  p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #232536;
+    font-weight: 500;
+    opacity: 87%;
+    width: 85%;
+  }
+}
+
+.process-header-right {
+  margin-top: 5px;
+}
+
+/* Process bottom */
+
+.process-bottom {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 48px;
+}
+
+.process-card {
+  width: 395px;
+  height: 180px;
+  padding: 12px 32px 32px 32px;
+  border: 1px solid #2325362b;
+  /* background-color: #000000; */
+}
+
+.process-card-with-shape {
+  width: 395px;
+  height: 180px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.process-card-shape {
+  margin-top: -10px;
+  width: 395px;
+  height: 8px;
+
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.process-card-with-shape-2 {
+  width: 395px;
+  height: 180px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 10px;
+  margin-top: -18px;
+}
+
+.process-card-shape-2 {
+  width: 395px;
+  height: 8px;
+
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.process-card-number {
+  font-size: 24px;
+  line-height: 32px;
+  color: #232536;
+  font-weight: 600;
+  opacity: 20%;
+  text-align: end;
+  position: relative;
+  top: 18px;
+}
+
+.process-card-info {
+  display: flex;
+  column-gap: 16px;
+}
+
+.process-card-img {
+  width: 47px;
+  height: 47px;
+}
+
+.process-card-text {
+  display: flex;
+  flex-direction: column;
+  row-gap: 6px;
+
+  h6 {
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 600;
+    color: #000000;
+  }
+
+  p {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #232536;
+  }
+}

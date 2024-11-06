@@ -1,0 +1,204 @@
+@import "../../css/global.css";
+
+.hero {
+  padding: 96px 0;
+}
+
+.hero-inside {
+  background-image: url(../../images/career-shape.svg);
+  background-repeat: no-repeat;
+  background-position: top right;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  span {
+    font-size: 14px;
+    line-height: 20px;
+    color: #232536;
+    letter-spacing: 3px;
+    font-weight: 500;
+    opacity: 87%;
+  }
+
+  h2 {
+    width: 624px;
+    font-size: 48px;
+    line-height: 58px;
+    color: #232536;
+    font-weight: 600;
+    text-align: center;
+    margin: 24px 0 24px 0;
+  }
+
+  .hero-paragraph {
+    width: 624px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #232536;
+    font-weight: 400;
+    text-align: center;
+    opacity: 87%;
+  }
+
+  img {
+    width: 1099px;
+    height: 194px;
+    margin: 64px 0 80px 0;
+  }
+
+  .hero-text-see-other {
+    font-size: 18px;
+    line-height: 28px;
+    color: #232536;
+    font-weight: 500;
+    margin-bottom: 16px;
+  }
+
+  .hero-emogy {
+    font-size: 24px;
+  }
+}
+
+.cources {
+  background-color: #ecf8f9;
+  padding: 78px 0;
+}
+
+.cources-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  row-gap: 32px;
+}
+
+.cource-card {
+  background-color: #ffffff;
+  padding: 48px;
+  width: 400px;
+  height: 243px;
+
+  h6 {
+    font-size: 16px;
+    line-height: 28px;
+    color: #232536;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+
+  p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #232536;
+    font-weight: 400;
+    opacity: 60%;
+  }
+
+  .cource-link {
+    display: flex;
+    align-items: center;
+    column-gap: 12px;
+    margin-top: 52px;
+
+    &:hover {
+      span {
+        color: black;
+      }
+    }
+
+    span {
+      font-size: 16px;
+      line-height: 24px;
+      color: #5d5fef;
+      font-weight: 500;
+    }
+  }
+}
+
+.skill-of-team {
+  background-color: #fafafc;
+  padding: 96px 0;
+}
+
+.skill-of-team-container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 64px;
+}
+
+.team-top {
+  display: flex;
+  flex-direction: column;
+
+  span {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #000000;
+    letter-spacing: 3px;
+    opacity: 87%;
+  }
+
+  h2 {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 54px;
+    color: #232536;
+    margin-top: 16px;
+    margin-bottom: 24px;
+    width: 624px;
+  }
+
+  p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #232536;
+    opacity: 60%;
+    width: 624px;
+  }
+}
+
+.card-about-work {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 12px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+  width: 408px;
+  height: 188px;
+  padding: 25px 20px;
+  background-color: #ffffff;
+
+  &:hover {
+    box-shadow: 0 0 20px 1px #00000033;
+  }
+
+  h6 {
+    font-size: 16px;
+    line-height: 28px;
+    color: #232536;
+    font-weight: 600;
+  }
+
+  p {
+    opacity: 60%;
+  }
+}
+
+.place-for-icon {
+  width: 40px;
+  height: 40px;
+  background-image: url(../../images/BG.svg);
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
